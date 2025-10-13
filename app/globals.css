@@ -1,26 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Unbounded:wght@200..900&display=swap');
+
 @import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "remixicon/fonts/remixicon.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --prim-color:#14B8A6;
+  --prim-light:#14B8A663;
+  --prim-color2:#BEFF6B;
+  --white-color:#fff;
+  --black-color:#000;
+
+  --Unbounded:"Unbounded", sans-serif;
+  --Merienda:"Merienda", cursive;
+  
+  --transition-regular:0.3s;
+  --transition-slow:0.6s;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+
+.Unbounded {
+  font-family: var(--Unbounded);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.Meriena {
+  font-family: var(--Merienda);
 }
+
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #090A0B;
+  color:var(--white-color);
 }
