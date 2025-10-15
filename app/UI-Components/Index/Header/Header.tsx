@@ -23,9 +23,9 @@ const Header = () => {
 
                         Trusted <span> Medical </span> care near you, supporting <span> health </span> each day
                     </h1>
-                    <div className="flex items-center gap-5 mt-1">
+                    <div className="flex items-center gap-5 lg:mt-10">
                         <button className="btns bg-white text-black gap-2 px-5 py-3 rounded-full hover:text-white transition-all duration-500 cursor-pointer">
-                            <Link className="flex items-center" href="/UI-Components/Pages/Contact">
+                            <Link className="flex Unbounded items-center" href="/UI-Components/Pages/Contact">
                                 Make Appointment
                                 <Image src={arrowBtn} alt="ArrowBtn" className="ms-3" />
                             </Link>
