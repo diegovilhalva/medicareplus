@@ -246,6 +246,47 @@ body {
 
 
 
+.about-ele1 {
+  animation: Anim-sort-rotate 5s infinite forwards linear;
+
+}
+
+@keyframes Anim-sort-rotate {
+  0% {
+    transform: rotate(50deg);
+
+  }
+
+  50% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(50deg);
+  }
+}
+
+.about-ele2 {
+  animation: Anim-sort-rotate2 5s infinite forwards linear;
+
+}
+
+@keyframes Anim-sort-rotate2 {
+  0% {
+    transform: rotate(-50deg);
+
+  }
+
+  50% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(-50deg);
+  }
+
+}
+
 @media (max-width:991px) {
   .hero-title {
     width: 100%;
@@ -254,10 +295,14 @@ body {
   .hero-shape2 {
     width: 300px;
   }
+  .about-ele1,
+  .about-ele2{
+    right: 15%;
+  }
 }
 
 @media (max-width:575px) {
-  .hero-title {
+  .hero-title h1 {
     font-size: 3rem;
     line-height: 4rem;
   }
@@ -266,11 +311,14 @@ body {
     font-size: 2rem;
     line-height: 3rem;
   }
+
   .hero-shape2 {
     display: none;
   }
+
   .hero-shape1 {
     width: 30%;
     top: 0;
   }
+
 }
