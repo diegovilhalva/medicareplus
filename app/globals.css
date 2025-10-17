@@ -322,3 +322,18 @@ body {
   }
 
 }
+
+.features {
+  box-shadow:  0 0 10px #ffffff70;
+}
+
+.feature-image {
+  transform:rotate(30deg) rotateX(90deg) translateX(-50%);
+  opacity: 0;
+  transition: var(--transition-slow);
+}
+
+.feature-card:hover .feature-image {
+  transform: rotate(0);
+  opacity: 1;
+}
