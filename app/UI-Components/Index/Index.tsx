@@ -4,6 +4,7 @@ import Feature from "./Feature/Feature"
 import Header from "./Header/Header"
 import Hero from "./Hero/Hero"
 import Marquee from "./Marquee/Marquee"
+import Project from "./Project/Project"
 import WhyChooseUs from "./Why-Choose-Us/Why-Choose-Us"
 
 
@@ -17,6 +18,7 @@ const Index = () => {
             <Feature />
             <Marquee />
             <WhyChooseUs />
+            <Project />
         </>
     )
 }
