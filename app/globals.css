@@ -24,7 +24,7 @@
   font-family: var(--Unbounded);
 }
 
-.Meriena {
+.Merienda {
   font-family: var(--Merienda);
 }
 
@@ -295,8 +295,9 @@ body {
   .hero-shape2 {
     width: 300px;
   }
+
   .about-ele1,
-  .about-ele2{
+  .about-ele2 {
     right: 15%;
   }
 }
@@ -324,11 +325,11 @@ body {
 }
 
 .features {
-  box-shadow:  0 0 10px #ffffff70;
+  box-shadow: 0 0 10px #ffffff70;
 }
 
 .feature-image {
-  transform:rotate(30deg) rotateX(90deg) translateX(-50%);
+  transform: rotate(30deg) rotateX(90deg) translateX(-50%);
   opacity: 0;
   transition: var(--transition-slow);
 }
@@ -336,4 +337,42 @@ body {
 .feature-card:hover .feature-image {
   transform: rotate(0);
   opacity: 1;
+}
+
+.project-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--prim-color2);
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  border-radius: 100%;
+  opacity: 0;
+  transition:var(--transition-slow) ;
+}
+
+.project-image:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color: #14B8A5b8;
+  opacity:0;
+  transform: scale(0);
+  transition: var(--transition-slow);
+}
+
+.project-card:hover .project-icon {
+  opacity: 1;
+  transform: scale(1) translate(-50%,-50%);
+}
+
+.project-card:hover .project-image:after {
+  opacity: 1;
+  transform: scale(1);
 }
