@@ -44,7 +44,7 @@ const Feature = () => {
                                 <Image src={Feature1} alt="feature 1" className="feature-image rounded-2xl " />
                             </div>
                             <div className="flex flex-col">
-                                <button className="btns  mt-2 md:mt-0 font-semibold Unbounded bg-white text-black  hover:text-white transition-all duration-500 cursor-pointer rounded-full px-5 py-3 w-full flex items-center justify-center gap-2">
+                                <button className="btns mt-2 md:mt-0 font-semibold Unbounded bg-white text-black  hover:text-white transition-all duration-500 cursor-pointer rounded-full px-5 py-3 w-full flex items-center justify-center gap-2">
                                     Read More
                                     <Image src={arrowBtn} alt="arrowBtn"  />
                                 </button>

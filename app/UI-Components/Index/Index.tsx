@@ -5,6 +5,7 @@ import Header from "./Header/Header"
 import Hero from "./Hero/Hero"
 import Marquee from "./Marquee/Marquee"
 import Project from "./Project/Project"
+import SpecialCare from "./Special-Care/Special-Care"
 import WhyChooseUs from "./Why-Choose-Us/Why-Choose-Us"
 
 
@@ -19,6 +20,7 @@ const Index = () => {
             <Marquee />
             <WhyChooseUs />
             <Project />
+            <SpecialCare />
         </>
     )
 }
