@@ -6,6 +6,7 @@ import Hero from "./Hero/Hero"
 import Marquee from "./Marquee/Marquee"
 import Project from "./Project/Project"
 import SpecialCare from "./Special-Care/Special-Care"
+import Testimonial from "./Testimonial/Testimonial"
 import WhyChooseUs from "./Why-Choose-Us/Why-Choose-Us"
 
 
@@ -21,6 +22,7 @@ const Index = () => {
             <WhyChooseUs />
             <Project />
             <SpecialCare />
+            <Testimonial />
         </>
     )
 }
