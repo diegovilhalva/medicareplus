@@ -405,3 +405,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.swiper-btn {
+  cursor: pointer;
+  transition: var(--transition-regular);
+}
+
+.swiper-btn:hover {
+  background-color: var(--black-color);
+  transform: scale(1.1);
+}
+
+.swiper-btn:hover img {
+  filter: invert(100%);
+}
