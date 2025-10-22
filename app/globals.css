@@ -437,3 +437,37 @@ footer {
   border-color: transparent;
   cursor: pointer;
 }
+
+.section-title {
+  background-image: url(../public/Section-banners.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.service-card {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  transition: var(--transition-regular);
+}
+
+.service-card:hover .service-icon {
+  background-color: var(--prim-color);
+}
+
+
+.service-btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
