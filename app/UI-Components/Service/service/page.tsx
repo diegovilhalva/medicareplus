@@ -22,7 +22,7 @@ const Service = () => {
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {services.map((service) => (
                         <div className="service-card shadow-md rounded-3xl p-6 text-center hover:shadow-lg transition-all duration-300" key={service.id}>
-                            <Link href={`/UI-Components/Service/seviceDetails?id=${service.id}`}>
+                            <Link href={`/UI-Components/Service/serviceDetails?id=${service.id}`}>
                                 <div className="flex items-center gap-2 mb-2">
                                     <div className="service-icon rounded-full w-18 h-18 flex items-center justify-center ">
                                         <Image src={service.titleImage} alt={service.title}
