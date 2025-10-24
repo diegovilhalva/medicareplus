@@ -23,7 +23,7 @@ const navLinks: NavLink[] = [
         href: "/UI-Components/Projects",
         dropdown: [
             { label: "Projects", href: "/UI-Components/Projects" },
-            { label: "Project Details", href: '/UI-Components/Projets/projectDetails?id=2' }
+            { label: "Project Details", href: '/UI-Components/Projects/ProjectDetails?id=2' }
         ]
     },
     {
