@@ -21,7 +21,7 @@ const Project = () => {
 
                 <div className="grid grid-cols-1  lg:grid-cols-2 gap-5 mt-20">
                     {projects.slice(0, 6).map((project, i) => (
-                        <Link href={`/Ui-Components/Projets/ProjectDetails?id=${project.id}`}
+                        <Link href={`/UI-Components/Projects/ProjectDetails?id=${project.id}`}
                             key={i}>
                             <div className="project-card cursor-pointer flex flex-col mb-5">
                                 <div className="project-image relative rounded-2xl overflow-hidden w-full">
