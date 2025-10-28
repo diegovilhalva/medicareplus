@@ -9,7 +9,7 @@ const page = () => {
   return (
     <>
       <div className="section-title px-[8%] lg:px-[12%] border-t text-black border-gray-300 bg-white py-30 mb-10 flex justify-between items-center">
-        <h2 className="text-3xl md:mt-6xl Merienda">About </h2>
+        <h2 className="text-3xl md:mt-6xl Merienda">Doctors </h2>
         <div className="flex gap-2 text-2xl">
           <Link
             href="/" className="">
@@ -22,7 +22,7 @@ const page = () => {
       </div>
       <div className="px-[8%] lg:px-[12%]">
         {data.map((doctor) => (
-          <Link key={doctor.id} href={`/UI-Components/Pages/doctorDetails/id=${doctor.id}`}>
+          <Link key={doctor.id} href={`/UI-Components/Pages/doctorDetails?id=${doctor.id}`}>
             <div className="feature-card border-t border-gray-500 cursor-pointer py-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-5">
               <div className="flex flex-col lg:flex-row gap-10">
                 <div className="flex flex-col gap-2">
