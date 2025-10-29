@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 Medicare+
 
-## Getting Started
+A modern and responsive **medical services website** built with **Next.js 15**, **TypeScript**, and **Tailwind CSS v4**.  
+This frontend-only project delivers a clean, professional, and accessible design for a healthcare platform focused on presenting services, blogs, and contact information in an elegant and user-friendly way.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+- ⚡ **Next.js 15** — App Router, Suspense, and modern React features  
+- 🧠 **TypeScript** — Strongly typed React components  
+- 🎨 **Tailwind CSS v4** — Utility-first styling for fast and consistent UI design  
+- 🌀 **Swiper** — Responsive and touch-friendly sliders  
+- 🔢 **React CountUp** — Smooth number animations for statistics and highlights  
+
+---
+
+## 🌐 Live Demo
+
+**🩵 Deployed on Vercel:**  
+👉 [https://medicareplus-five.vercel.app](https://medicareplus-five.vercel.app)
+
+---
+
+## 💾 Repository
+
+**GitHub:**  
+👉 [https://github.com/diegovilhalva/medicareplus](https://github.com/diegovilhalva/medicareplus)
+
+---
+
+## 🧩 Features
+
+- Responsive layout optimized for desktop, tablet, and mobile  
+- Animated statistics with `react-countup`  
+- Blog section with individual post pages  
+- Carousel sections powered by `Swiper`  
+- Modular and reusable UI components  
+- SEO-friendly structure using Next.js metadata  
+
+---
+
+## 💻 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/diegovilhalva/medicareplus.git
+cd medicareplus
+npm install
+````
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+medicareplus/
+├── app/                      # Next.js app directory
+│   ├── UI-Components/        # Main UI sections and blog pages
+│   ├── data/                 # Local JSON data
+│   └── globals.css           # Global Tailwind styles
+├── public/                   # Static assets and images
+├── tsconfig.json             # TypeScript configuration
+└── tailwind.config.ts        # Tailwind CSS v4 setup
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Learning Focus
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project was built to explore and apply:
 
-## Deploy on Vercel
+* Modern Next.js 15 features (App Router, Suspense boundaries)
+* Component-based design with TypeScript
+* Tailwind CSS v4 utilities and responsive design best practices
+* Smooth UI interactions with Swiper and CountUp animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📄 License
+
+This project is **open-source** and available under the [MIT License](LICENSE).
+
+---
+
+### 👨‍💻 Developed by [Diego Vilhalva](https://github.com/diegovilhalva)
+
+
+
