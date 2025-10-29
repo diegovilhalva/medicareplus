@@ -495,3 +495,46 @@ footer {
 .blog-card:hover .blog-img img {
   transform: scale(1.1);
 }
+
+.contact-card {
+  display: flex;
+  align-items:start;
+  justify-content:center;
+  flex-direction: column;
+  gap:1;
+  border: 1px solid var(--prim-color2);
+}
+
+
+.contact-form {
+  background-color: #ffffff00;
+  backdrop-filter: blur(100px);
+  z-index: 5;
+}
+.contact-form:after {
+  content:'';
+  position: absolute;
+  top: 10%;
+  left:80%;
+  transform: translate(-50%,-50%);
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  background-color: var(--color-white);
+  z-index:-1;
+  filter:blur(100px);
+}
+
+.contact-form:before {
+  content:'';
+  position: absolute;
+  top: 90%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  background-color: var(--color-white);
+  z-index:-1;
+  filter:blur(100px);
+}
