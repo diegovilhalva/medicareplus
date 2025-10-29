@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
                 <div className="bg-[var(--prim-color2)] rounded-md mt-20">
                     <div className="flex flex-col md:flex-row justify-between items-center px-5 lg:px-20 py-10 gap-5">
                         <h2 className="w-full Unbounded text-3xl text-black leading-10">
-                            Tomorrow's Health <br /> Today's Care
+                            {"Tomorrow's Health"} <br /> {"Today's Care"}
                         </h2>
                         <div className="w-full grid  grid-cols-2 md:grid-cols-3  gap-x-8 gap-y-5">
                             <div className="flex flex-col text-black">

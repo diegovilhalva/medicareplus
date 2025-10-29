@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Merienda, Unbounded } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
+import { Suspense } from "react";
 
 
 const geistSans = Geist({
@@ -18,13 +19,13 @@ const geistMono = Geist_Mono({
 const unbounded = Unbounded({
   variable: "--font-unbounded",
   subsets: ["latin"],
-  display:"swap"
+  display: "swap"
 });
 
 const merienda = Merienda({
   variable: "--font-merienda",
   subsets: ["latin"],
-  display:"swap"
+  display: "swap"
 });
 
 export const metadata: Metadata = {
@@ -39,13 +40,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${unbounded.variable} ${merienda.variable}`}
-      >
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+      <Suspense>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} ${unbounded.variable} ${merienda.variable}`}
+        >
+          <Navbar />
+          {children}
+          <Footer />
+        </body>
+      </Suspense>
+
     </html>
   );
 }

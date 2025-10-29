@@ -37,7 +37,7 @@ const About = () => {
                             <div className="flex flex-col gap-2 mb-10">
                                 <div className="flex gap-5">
                                     <h2 className="Unbounded text-2xl md:text-3xl">02</h2>
-                                    <h2 className="Unbounded text-2xl md:text-3xl">Tomorrow's Health, Today's Care</h2>
+                                    <h2 className="Unbounded text-2xl md:text-3xl">{"Tomorrow's Health, Today's Care"}</h2>
                                 </div>
                                 <p className="ps-15 text-gray-400">
                                     Health care is a vital aspect of maintaining overall well-being, encompassing a range of services

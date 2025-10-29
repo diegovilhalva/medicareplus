@@ -24,9 +24,9 @@ const Footer = () => {
         </div>
         <div className="footer mt-15 pb-10 gap-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <div className="footer-content">
-            <a href="/" className='text-4xl font-bold Merienda text-white'>
+            <Link href="/" className='text-4xl font-bold Merienda text-white'>
               Medi<span className='text-[var(--prim-color)]'>Care+</span>
-            </a>
+            </Link>
             <p className="mt-5 text-gray-400">
               Medical services are an essential part of our lives, offering care and treatment for various
               health conditions
